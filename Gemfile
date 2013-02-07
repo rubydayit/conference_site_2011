@@ -1,6 +1,9 @@
 source "https://rubygems.org"
 
-gem 'compass'
-gem 'haml'
 gem 'rack-contrib'
 gem 'rack'
+
+group :development, :test do
+  gem 'compass'
+  gem 'haml'
+end
